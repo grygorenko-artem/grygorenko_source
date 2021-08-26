@@ -2,3 +2,5 @@ baseURL: "http://example.org/"
 languageCode: 'en-us'
 title: 'Grygorenko Blog'
 theme: "PaperMod"
+
+paginate: 5
