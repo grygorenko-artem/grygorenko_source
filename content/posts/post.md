@@ -2,11 +2,11 @@
 title: "Model vs Template: How I failed as a mentor and what I learned from my mistakes"
 date: 2023-03-18
 draft: false
-aliases: ["/first"]
-tags: ["first", "second"]
+aliases: ["/idp-model-vs-template"]
+tags: ["IDP", "Mentorship"]
 author: "Me"
 hidemeta: false
-description: "This is  a first post Desc Text."
+description: "About IDPs and Mentorships"
 ShowRssButtonInSectionTermList: true
 ---
 ![starting point](../images/startingpoint.jpg)
