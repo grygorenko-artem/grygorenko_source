@@ -39,7 +39,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    description: "Blog about testing, QA, management and people."
     author: Artem Grygorenko
     defaultTheme: auto
     disableThemeToggle: true #theme toggle dark/light
@@ -65,6 +65,8 @@ params:
           url: "https://instagram.com/artem.grygorenko"
         - name: Twitter
           url: "https://twitter.com/grygorenkoartem"
+        - name: Telegram
+          url: "https://t.me/a_grygorenko"
         - name: Rss
           url: "index.xml"
 
