@@ -61,12 +61,14 @@ params:
             Welcome to my QA and management blog
             
     socialIcons:
-        - name: Instagram
-          url: "https://instagram.com/artem.grygorenko"
         - name: Twitter
           url: "https://twitter.com/grygorenkoartem"
         - name: Telegram
           url: "https://t.me/a_grygorenko"
+        - name: LinkedIn
+          url: "https://www.linkedin.com/in/artem-grygorenko/"
+        - name: Instagram
+          url: "https://instagram.com/artem.grygorenko"
         - name: Rss
           url: "index.xml"
 
