@@ -66,3 +66,7 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.personal{
+    color: #00f90c;
+}

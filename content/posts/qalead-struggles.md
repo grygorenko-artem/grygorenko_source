@@ -13,7 +13,7 @@ cover:
 ---
 
 ### Introduction
-You are a Senior QA. You progress, learn something new, reach new heights on a project or product. And here is the same moment. Your manager comes to you and says: "*Dude, you've done a great job in recent years. You've helped create cool processes and implemented new tools. And we're ready to promote you to the leader of the testing team. Congratulations!*"
+You are a Senior QA. You progress, learn something new, reach new heights on a project or product. And here is the same moment. Your manager comes to you and says: <span class="personal">"*Dude, you've done a great job in recent years. You've helped create cool processes and implemented new tools. And we're ready to promote you to the leader of the testing team. Congratulations!*"</span>
 
 Today I propose to consider the problems and nuances that novice QA Leads face when promoting.
 
