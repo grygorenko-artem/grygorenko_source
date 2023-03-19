@@ -32,7 +32,7 @@
         </svg>
     </a>
     {{- end }}
-    {{- if (cond ($custom) (in $ShareButtons "reddit") (true)) }}
+    {{- if (cond ($custom) (in $ShareButtons "reddit") (false)) }}
     <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on reddit"
         href="https://reddit.com/submit?url={{ $pageurl }}&title={{ $title }}">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
@@ -50,7 +50,7 @@
         </svg>
     </a>
     {{- end }}
-    {{- if (cond ($custom) (in $ShareButtons "whatsapp") (true)) }}
+    {{- if (cond ($custom) (in $ShareButtons "whatsapp") (false)) }}
     <a target="_blank" rel="noopener noreferrer" aria-label="share {{ $title | plainify }} on whatsapp"
         href="https://api.whatsapp.com/send?text={{ $title }}%20-%20{{ $pageurl }}">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
