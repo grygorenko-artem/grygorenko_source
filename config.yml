@@ -18,17 +18,17 @@ minify:
 
 menu:
     main:
-      - name: Archive
+      - name: 📁Archive
         url: archives/
         weight: 5
-      - name: Tags
+      - name: 🏷️Tags
         url: tags/
         weight: 10
-      - name: Search
+      - name: 🔍Search
         url: search/
-      - name: MY CV
+      - name: 📄MY CV
         url: Artem_Grygorenko_CV.pdf
-      - name: My Talks
+      - name: 📺My Talks
         url: talks
 
 outputs:
