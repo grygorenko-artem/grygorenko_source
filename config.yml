@@ -26,8 +26,8 @@ menu:
         weight: 10
       - name: 🔍Search
         url: search/
-      - name: 📄MY CV
-        url: Artem_Grygorenko_CV.pdf
+      - name: 📄About Me
+        url: about/
       - name: 📺My Talks
         url: talks
 
@@ -45,15 +45,13 @@ params:
     disableThemeToggle: true #theme toggle dark/light
     ShowShareButtons: true #share buttons on posts
     ShowReadingTime: true
-    # disableSpecial1stPost: true
-    # displayFullLangName: true
+
     ShowPostNavLinks: false 
     ShowBreadCrumbs: true #breadcrumbs on posts
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     comments: true
-    #images: ["Instagram_Avatar.jpg"]
 
     homeInfoParams:
         Title: "Artem Grygorenko"
@@ -72,36 +70,13 @@ params:
         - name: Rss
           url: "index.xml"
 
-   # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
     # analytics:
     #     google:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
         disableHLJS: true
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+        favicon: "favicon.ico"
 
 markup:
     goldmark:
@@ -109,11 +84,6 @@ markup:
             unsafe: true
     highlight:
         noClasses: false
-        # anchorLineNos: true
-        # codeFences: true
-        # guessSyntax: true
-        # lineNos: true
-        # style: monokai
 
 privacy:
     vimeo:
