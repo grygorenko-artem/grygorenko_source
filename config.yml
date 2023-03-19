@@ -43,7 +43,7 @@ params:
     author: Artem Grygorenko
     defaultTheme: auto
     disableThemeToggle: true #theme toggle dark/light
-    ShowShareButtons: false #share buttons on posts
+    ShowShareButtons: true #share buttons on posts
     ShowReadingTime: true
     # disableSpecial1stPost: true
     # displayFullLangName: true
