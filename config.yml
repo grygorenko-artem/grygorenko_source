@@ -27,7 +27,7 @@ menu:
       - name: Search
         url: search/
       - name: WiKi
-        url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        url: content/Artem Grygorenko_CV.pdf
       - name: My Talks
         url: talks
 
