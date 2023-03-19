@@ -27,7 +27,7 @@ menu:
       - name: Search
         url: search/
       - name: MY CV
-        url: content/Artem Grygorenko_CV.pdf
+        url: Artem_Grygorenko_CV.pdf
       - name: My Talks
         url: talks
 
