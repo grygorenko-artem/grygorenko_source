@@ -51,7 +51,7 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
-    comments: true
+    comments: false
 
     homeInfoParams:
         Title: "Artem Grygorenko"

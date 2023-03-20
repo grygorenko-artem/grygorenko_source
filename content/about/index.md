@@ -1,11 +1,12 @@
 ---
 title: "About Me"
 ShowToc: false
+ShowBreadCrumbs: false
+ShowShareButtons: false
+ShowReadingTime: false
 ---
-
-Manager <span class="personal">with 10+ years </span> of experience in IT.
-
-Speaker and author of quality assurance and people management webinars and conferences.
+![profileimage](profile.jpg#center)
+Manager <span class="personal">with 10+ years </span> of experience in IT. Speaker and author of quality assurance and people management webinars and conferences.
 - Blogger [UA]: https://t.me/a_grygorenko
 - Podcaster [UA]: https://spoti.fi/3LAku0Q 
 
