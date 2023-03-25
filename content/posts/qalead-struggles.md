@@ -1,15 +1,9 @@
 ---
 title: "Difficulties after getting promoted to QA Lead"
-date: 2023-03-19T13:05:53+02:00
-draft: true
-#aliases: ["/"]
+date: 2023-04-03
+draft: false
 tags: ["Leadership"]
 author: "Me"
-#hidemeta: false
-#description: ""
-#ShowRssButtonInSectionTermList: true
-cover:
-  image: "../images/eisenhowermatrix.png"
 ---
 
 ### Introduction

@@ -8,6 +8,7 @@ author: "Me"
 hidemeta: false
 description: "About IDPs and Mentorships"
 ShowRssButtonInSectionTermList: true
+comments: true
 ---
 ![starting point](../images/startingpoint.jpg)
 ### Starting point 

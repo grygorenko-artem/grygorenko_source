@@ -1,8 +1,8 @@
 ---
 title: "About Me"
+ShowShareButtons: false
 ShowToc: false
 ShowBreadCrumbs: false
-ShowShareButtons: false
 ShowReadingTime: false
 ---
 ![profileimage](profile.jpg#center)
