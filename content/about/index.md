@@ -26,6 +26,7 @@ We can call on whatsapp, google meet, zoom, telegram or anywhere else where it i
 
 {{< carousel items="1" height="300" unit="px" duration="7000" >}}
 
+
 <div class="center">
   <a href="mailto:grygorenko.artem@gmail.com" class="button">Email Me</a>
 </div>
