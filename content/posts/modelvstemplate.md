@@ -4,13 +4,15 @@ date: 2023-03-18
 draft: false
 aliases: ["/idp-model-vs-template"]
 tags: ["IDP", "Mentorship"]
-author: "Me"
+author: "Artem Grygorenko"
 hidemeta: false
 description: "About IDPs and Mentorships"
 ShowRssButtonInSectionTermList: true
 comments: true
+cover:
+  image: posts/images/startingpoint.jpg
+
 ---
-![starting point](../images/startingpoint.jpg)
 ### Starting point 
 Mentoring employees is one of the most important processes in our company. Wise and experienced veterans guide and curate professional growth of new people, helping interns transform into senior test engineers.
 

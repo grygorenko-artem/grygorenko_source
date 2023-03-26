@@ -3,7 +3,7 @@ title: "Difficulties after getting promoted to QA Lead"
 date: 2023-04-03
 draft: false
 tags: ["Leadership"]
-author: "Me"
+author: "Artem Grygorenko"
 ---
 
 ### Introduction

@@ -3,10 +3,13 @@ title: "How I read articles"
 date: 2023-03-27
 draft: false
 tags: ["Productivity"]
-author: "Me"
+author: "Artem Grygorenko"
+description: "In this article, I will share how I read articles and manage them effectively to build my knowledge base."
+cover:
+  image: posts/images/how-i-read-articles.png
+  alt: "reading articles strategy"
 ---
 
-In this article, I will share how I read articles and manage them effectively to build my knowledge base. 
 I use a combination of the following tools to achieve my goal: 
 - Browser, 
 - Pocket, 
