@@ -16,9 +16,16 @@ Performing management activities for <span class="personal">complex projects of 
 Strong experience in research of different natures, including competitor analysis from a technical standpoint, products, and services that support have to be added.
 Experienced in identifying and analyzing product and project risks, creating risk mitigation plans, helping monitor project risks occurrence, and creating plans for unplanned risks.
 
-There are a few things that characterize me as a personality:
-- Strong people management and leadership skills;
-- High self-motivation and ability to motivate others;
-- Proactive, results-oriented manager having the ability to work under pressure and meet aggressive deadlines;
-- Lead teams and projects in a fast-paced environment;
-- Eager for continuous improvement and professional development.
+
+### IT Consulting 
+
+I am approached by people from other companies, both for advice on personal growth, career, professional development, approach to work, and for assistance in building teams, work processes in them, interviewing candidates, etc.
+
+I am ready to individually help in solving your problems and share my knowledge personally with you for <span class="personal"> 50$  per hour </span> for individuals and <span class="personal"> 100$  per hour </span> for legal entities. 
+We can call on skype, hangouts, zoom, telegram or anywhere else where it is convenient for you.
+
+{{< carousel items="1" height="280" unit="px" duration="7000" >}}
+
+<div class="center">
+  <a href="mailto:grygorenko.artem@gmail.com" class="button">Email Me</a>
+</div>
