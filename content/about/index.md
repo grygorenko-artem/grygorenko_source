@@ -22,7 +22,7 @@ Experienced in identifying and analyzing product and project risks, creating ris
 I am approached by people from other companies, both for advice on personal growth, career, professional development, approach to work, and for assistance in building teams, work processes in them, interviewing candidates, etc.
 
 I am ready to individually help in solving your problems and share my knowledge personally with you for <span class="personal"> 50$  per hour </span> for individuals and <span class="personal"> 100$  per hour </span> for legal entities. 
-We can call on skype, hangouts, zoom, telegram or anywhere else where it is convenient for you.
+We can call on whatsapp, google meet, zoom, telegram or anywhere else where it is convenient for you.
 
 {{< carousel items="1" height="280" unit="px" duration="7000" >}}
 
