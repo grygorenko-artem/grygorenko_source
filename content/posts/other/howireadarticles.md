@@ -1,6 +1,6 @@
 ---
 title: "How I read articles"
-date: 2023-03-27
+date: 2023-03-26
 draft: false
 tags: ["Productivity"]
 author: "Artem Grygorenko"
