@@ -5,6 +5,7 @@ draft: false
 tags: ["Productivity"]
 author: "Artem Grygorenko"
 description: "In this article, I will share how I read articles and manage them effectively to build my knowledge base."
+comments: true
 cover:
   image: posts/images/how-i-read-articles.png
   alt: "reading articles strategy"
