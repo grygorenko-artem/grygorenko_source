@@ -42,7 +42,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Blog about testing, QA, management and people."
     author: Artem Grygorenko
-    defaultTheme: auto
+    defaultTheme: dark
     disableThemeToggle: true #theme toggle dark/light
     ShowShareButtons: true #share buttons on posts
     ShowReadingTime: true
