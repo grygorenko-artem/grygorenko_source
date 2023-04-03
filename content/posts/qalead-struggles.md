@@ -1,10 +1,12 @@
 ---
 title: "Difficulties after getting promoted to QA Lead"
-date: 2023-04-03
+date: 2023-04-02
 draft: false
 tags: ["Leadership"]
 author: "Artem Grygorenko"
 comments: true
+cover:
+  image: posts/images/qastuggles.png
 ---
 
 ### Introduction
@@ -91,7 +93,7 @@ And of course, lead by example. You are the person that your colleagues and subo
 ### What not to do as QA Lead
 As I wrote above, you don't need to change everything you don't like. This is a mistake made by many leads beginners. In fact, the problem is that if you immediately start changing something without becoming the necessary authority for this, then you will face the fact that people will become defensive and will not want to change something. This resistance will be difficult to overcome, in fact it will be a great pity for everyone.
 
-Ignore feedback. When promoted to QA Lead, it can happen that this causes a sharp increase in PSV, but you still need to listen, and listen to what your colleagues tell you. The feedback that comes from them is very valuable information that should not be ignored one hundred percent.
+Ignore feedback. When promoted to QA Lead, it can happen that this causes a sharp increase in sense of self-importance, but you still need to listen, and listen to what your colleagues tell you. The feedback that comes from them is very valuable information that should not be ignored one hundred percent.
 
 And the last thing is to be afraid to delegate. This may be because you have a lot of responsibility and you want everything to be okay. But by not delegating tasks throughout this chain, you become a bottleneck. In addition, you do not allow your colleagues to develop.
 
