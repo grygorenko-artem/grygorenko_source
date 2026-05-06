@@ -1,0 +1,165 @@
+---
+import Base from '@/layouts/Base.astro';
+import { talks } from '@/data/talks';
+
+const byYear = talks.reduce<Record<number, typeof talks>>((acc, talk) => {
+  const year = new Date(talk.date).getFullYear();
+  (acc[year] ??= []).push(talk);
+  return acc;
+}, {});
+
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+---
+
+<Base title="My Talks">
+  <h2 class="page-title">My Talks</h2>
+
+  {years.map((year) => (
+    <div class="year-group">
+      <div class="year-label">{year}</div>
+      <div class="talk-list">
+        {byYear[year].map((talk) => {
+          const d = new Date(talk.date);
+          const dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+          return (
+            <div class="talk">
+              <div class="talk-date">{dateStr}</div>
+              <div class="talk-body">
+                <div class="talk-title">
+                  {talk.recording
+                    ? <a href={talk.recording} target="_blank" rel="noopener">{talk.title}</a>
+                    : talk.title
+                  }
+                </div>
+                <div class="talk-meta">
+                  <span class="talk-event">{talk.event}</span>
+                  <span class="talk-badge">{talk.language}</span>
+                  <span class="talk-badge">{talk.format}</span>
+                  {talk.location && <span class="talk-badge">{talk.location}</span>}
+                </div>
+                {(talk.recording || talk.slides) && (
+                  <div class="talk-links">
+                    {talk.recording && (
+                      <a href={talk.recording} target="_blank" rel="noopener" class="talk-link">
+                        ▶ Recording
+                      </a>
+                    )}
+                    {talk.slides && (
+                      <a href={talk.slides} target="_blank" rel="noopener" class="talk-link">
+                        ↗ Slides
+                      </a>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  ))}
+</Base>
+
+<style>
+  .year-group {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .year-label {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    letter-spacing: 0.05em;
+    padding-top: 0.35rem;
+    width: 36px;
+    flex-shrink: 0;
+  }
+
+  .talk-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .talk {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.875rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .talk:first-child { border-top: 1px solid var(--border); }
+
+  .talk-date {
+    font-size: 0.775rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    width: 48px;
+    flex-shrink: 0;
+    padding-top: 0.15rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talk-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .talk-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .talk-title a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .talk-title a:hover { color: var(--accent); }
+
+  .talk-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .talk-event {
+    font-size: 0.775rem;
+    color: var(--text-secondary);
+  }
+
+  .talk-badge {
+    font-size: 0.675rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+  }
+
+  .talk-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.1rem;
+  }
+
+  .talk-link {
+    font-size: 0.775rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .talk-link:hover { color: var(--accent-hover); }
+</style>
