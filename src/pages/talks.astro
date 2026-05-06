@@ -11,8 +11,8 @@ const byYear = talks.reduce<Record<number, typeof talks>>((acc, talk) => {
 const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
 ---
 
-<Base title="My Talks">
-  <h2 class="page-title">My Talks</h2>
+<Base title="Talks & Webinars">
+  <h2 class="page-title">Talks & Webinars</h2>
 
   <div class="filters">
     <button class="filter-btn active" data-lang="all">All</button>
