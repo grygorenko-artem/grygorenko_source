@@ -14,15 +14,21 @@ const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
 <Base title="My Talks">
   <h2 class="page-title">My Talks</h2>
 
+  <div class="filters">
+    <button class="filter-btn active" data-lang="all">All</button>
+    <button class="filter-btn" data-lang="EN">English</button>
+    <button class="filter-btn" data-lang="UA">Ukrainian</button>
+  </div>
+
   {years.map((year) => (
-    <div class="year-group">
+    <div class="year-group" data-year={year}>
       <div class="year-label">{year}</div>
       <div class="talk-list">
         {byYear[year].map((talk) => {
           const d = new Date(talk.date);
           const dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
           return (
-            <div class="talk">
+            <div class="talk" data-lang={talk.language}>
               <div class="talk-date">{dateStr}</div>
               <div class="talk-body">
                 <div class="talk-title">
@@ -60,7 +66,68 @@ const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
   ))}
 </Base>
 
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const talks = document.querySelectorAll<HTMLElement>('.talk');
+  const yearGroups = document.querySelectorAll<HTMLElement>('.year-group');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const lang = btn.dataset.lang!;
+
+      talks.forEach(talk => {
+        const show = lang === 'all' || talk.dataset.lang === lang;
+        talk.style.display = show ? '' : 'none';
+      });
+
+      yearGroups.forEach(group => {
+        const visible = [...group.querySelectorAll<HTMLElement>('.talk')]
+          .some(t => t.style.display !== 'none');
+        group.style.display = visible ? '' : 'none';
+      });
+    });
+  });
+</script>
+
 <style>
+  .filters {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+
+  .filter-btn {
+    font-size: 0.775rem;
+    font-weight: 500;
+    font-family: var(--font-body);
+    padding: 0.35rem 1rem;
+    border: none;
+    border-right: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .filter-btn:last-child {
+    border-right: none;
+  }
+
+  .filter-btn.active {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .filter-btn:hover:not(.active) {
+    background: var(--sidebar-bg);
+    color: var(--text);
+  }
+
   .year-group {
     display: flex;
     gap: 2rem;
