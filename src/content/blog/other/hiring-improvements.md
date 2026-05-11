@@ -2,13 +2,8 @@
 title: "How we improved our hiring process"
 date: 2023-04-18
 draft: false
-aliases: ["/hiring-improvements"]
 tags: ["Hiring", "Lessons Learned"]
-author: "Artem Grygorenko"
-hidemeta: false
 description: "This is an article about our improvements of hiring in the fast-growing company."
-ShowRssButtonInSectionTermList: true
-comments: true
 cover:
   image: /images/hiring-improvements.jpg
 ---

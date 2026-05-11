@@ -3,8 +3,6 @@ title: "Difficulties after getting promoted to QA Lead"
 date: 2023-04-02
 draft: false
 tags: ["Leadership"]
-author: "Artem Grygorenko"
-comments: true
 cover:
   image: /images/qastuggles.png
 ---
