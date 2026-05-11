@@ -1,7 +1,7 @@
 ---
 title: "Sometimes the problem is an opportunity"
 date: 2026-05-11
-draft: true
+draft: false
 tags: ["Problem", "Growth"]
 description: ""
 ---
@@ -71,4 +71,4 @@ Problems are often opportunities in disguise — for a new role, new responsibil
 
 Next time you're about to give up on something, stop for a second and ask yourself: *what can I actually get out of this situation?*
 
-And if you think I'm wrong somewhere — let me know in the comments.
+And if you think I'm wrong somewhere — hit me in the [linkedin](https://www.linkedin.com/in/artem-grygorenko/)
