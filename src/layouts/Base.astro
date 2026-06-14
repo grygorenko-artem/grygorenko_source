@@ -2,11 +2,14 @@
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
 }
 
-const { title, description = 'Blog about testing, QA, management and people.' } = Astro.props;
+const { title, description = 'Blog about testing, QA, management and people.', image = '/og-image.png' } = Astro.props;
 const siteTitle = '{∀}.Grygorenko';
 const pageTitle = title ? `${title} · ${siteTitle}` : siteTitle;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://blog.grygorenko.tech');
+const ogImage = new URL(image, Astro.site ?? 'https://blog.grygorenko.tech');
 
 const nav = [
   { label: 'Posts',    href: '/' },
@@ -33,6 +36,18 @@ const currentPath = Astro.url.pathname;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{pageTitle}</title>
   <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={ogImage} />
+  <!-- Twitter / Telegram fallback -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
