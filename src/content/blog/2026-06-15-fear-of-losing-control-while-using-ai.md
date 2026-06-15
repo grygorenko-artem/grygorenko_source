@@ -1,7 +1,7 @@
 ---
 title: "The Fear of Losing Control While Using AI"
 date: 2026-06-15
-draft: true
+draft: false
 tags: ["AI", "engineering", "reflection"]
 description: "An honest reflection on the unexpected fear I felt when AI completed a migration task — and I realized I no longer understood how my own system worked."
 ---
